@@ -3,112 +3,119 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 4370,
+      "count": 23120,
       "max": [
-        0.9997134208679199,
-        2.8641984462738037,
-        1.127591848373413
+        13.537399291992188,
+        19.660793304443359,
+        8.1748294830322266
       ],
       "min": [
-        -1.2697715759277344,
-        -3.354196071624756,
-        -1.1275919675827026
+        0,
+        0,
+        0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 52440,
+      "byteOffset": 277440,
       "componentType": 5126,
-      "count": 4370,
+      "count": 23120,
       "max": [
-        1.0,
-        1.0,
-        1.0
+        0.99331998825073242,
+        0.9996069073677063,
+        0.18969403207302094
       ],
       "min": [
-        -1.0,
-        -1.0,
-        -1.0
+        -0.9853852391242981,
+        -0.89725244045257568,
+        -0.99997025728225708
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 4370,
+      "count": 23120,
       "max": [
-        1.0,
-        0.9968672394752502,
-        1.0,
-        1.0
+        0.45072901248931885,
+        0.99940019845962524,
+        0.9640229344367981,
+        1
       ],
       "min": [
-        -1.0,
-        -0.998104453086853,
-        -1.0,
-        -1.0
+        -0.99988245964050293,
+        -0.98358678817749023,
+        -0.99667418003082275,
+        -1
       ],
       "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 4370,
+      "count": 23120,
       "max": [
-        0.9939655065536499,
-        0.995765209197998
+        0.99804699420928955,
+        0.99674302339553833
       ],
       "min": [
-        0.01208806037902832,
-        0.004577472805976868
+        0.0019529999699443579,
+        0.0032569998875260353
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 24144,
+      "count": 129333,
+      "max": [
+        23119
+      ],
+      "min": [
+        0
+      ],
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Angel Cormier (https://sketchfab.com/angelcormier)",
+      "author": "Krista (https://sketchfab.com/kar188)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/attic-black-figure-lekythosanu-classics-museum-db76f8cd252846679a472ee6059f3a77",
-      "title": "Attic Black-Figure Lekythos(ANU Classics Museum)"
+      "source": "https://sketchfab.com/models/9088086d00204c99b77da7d8dec253de",
+      "title": "Mona Lisa"
     },
-    "generator": "Sketchfab-11.53.2",
+    "generator": "Sketchfab-3.18.6",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 96576,
+      "byteLength": 517332,
+      "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 34960,
-      "byteOffset": 96576,
+      "byteLength": 184960,
+      "byteOffset": 517332,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 104880,
-      "byteOffset": 131536,
+      "byteLength": 554880,
+      "byteOffset": 702292,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 69920,
-      "byteOffset": 236416,
+      "byteLength": 369920,
+      "byteOffset": 1257172,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -116,42 +123,48 @@
   ],
   "buffers": [
     {
-      "byteLength": 306336,
+      "byteLength": 1627092,
       "uri": "scene.bin"
     }
   ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
   "images": [
     {
-      "uri": "textures/lambert1_baseColor.png"
-    },
-    {
-      "uri": "textures/lambert1_metallicRoughness.png"
-    },
-    {
-      "uri": "textures/lambert1_normal.png"
+      "uri": "textures/Material_0_baseColor.jpeg"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "lambert1",
-      "normalTexture": {
-        "index": 2
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
       },
+      "name": "Material_0",
       "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
         "baseColorTexture": {
-          "index": 0
+          "index": 0,
+          "texCoord": 0
         },
-        "metallicFactor": 0.0,
-        "metallicRoughnessTexture": {
-          "index": 1
-        }
+        "metallicFactor": 0,
+        "roughnessFactor": 1
       }
     }
   ],
   "meshes": [
     {
-      "name": "pCylinder2_lambert1_0",
       "primitives": [
         {
           "attributes": {
@@ -172,65 +185,65 @@
       "children": [
         1
       ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        2.220446049250313e-16,
-        -1.0,
-        0.0,
-        0.0,
-        1.0,
-        2.220446049250313e-16,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "name": "Sketchfab_model"
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
     },
     {
       "children": [
         2
       ],
       "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        -1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -11.600432395935059,
+        -9.870152473449707,
+        1
       ],
-      "name": "bf1cd803dc714d45a5c150d5377cf91b.fbx"
+      "name": "RootNode (model correction matrix)"
     },
     {
       "children": [
         3
       ],
-      "name": "RootNode"
-    },
-    {
-      "children": [
-        4
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -6.0255990028381348,
+        -20.565711975097656,
+        -3.2222800254821777,
+        1
       ],
-      "name": "pCylinder2"
+      "name": "MonaLisa.obj.cleaner.gles"
     },
     {
       "mesh": 0,
-      "name": "pCylinder2_lambert1_0"
+      "name": ""
     }
   ],
   "samplers": [
@@ -244,7 +257,7 @@
   "scene": 0,
   "scenes": [
     {
-      "name": "Sketchfab_Scene",
+      "name": "OSG_Scene",
       "nodes": [
         0
       ]
@@ -254,14 +267,7 @@
     {
       "sampler": 0,
       "source": 0
-    },
-    {
-      "sampler": 0,
-      "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
     }
   ]
 }
+
